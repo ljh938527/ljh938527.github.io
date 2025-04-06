@@ -9,8 +9,6 @@ baseurl: ""
 url: "https://ljh938527.github.io"
 logo: "/assets/logo.png"
 
-custom_footer: "© 2025 ljh938527 | 基于 Jekyll 构建"
-
 lang: "zh-CN"
 timezone: "Asia/Beijing"
 

@@ -4,8 +4,6 @@ title: 欢迎来到我的知识库
 description: "技术文档与开发资源中心"
 ---
 
-![Banner](/assets/banner.png){: .banner }
-
 ## 🚀 快速访问
 
 - [📚 所有文档目录](/docs/)
@@ -29,7 +27,5 @@ description: "技术文档与开发资源中心"
 - **代码仓库**: [GitHub](https://github.com/ljh938527/ljh938527.github.io)
 
 ---
-
-{% raw %}{% include stats.html %}{% endraw %}
 
 [![GitHub Stars](https://img.shields.io/github/stars/ljh938527/ljh938527.github.io?style=social)](https://github.com/ljh938527/ljh938527.github.io)
