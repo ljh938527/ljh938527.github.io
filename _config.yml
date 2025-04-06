@@ -1,0 +1,3 @@
+title: 我的文档站
+theme: minima  # 使用默认主题
+permalink: /docs/:name/  # 设置文档路径格式
