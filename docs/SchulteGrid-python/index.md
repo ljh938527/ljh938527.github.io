@@ -1,3 +1,9 @@
+---
+title: SchulteGrid-python
+description: 基于Python的舒尔特方格游戏
+github_repo: https://github.com/ljh938527/SchulteGird-python
+---
+
 # 舒尔特方格训练工具
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -22,7 +28,7 @@
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/yourusername/Schulte-grid.git
+git clone https://github.com/ljh938527/SchulteGrid-python.git
 cd Schulte-grid
 ```
 

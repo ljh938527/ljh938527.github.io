@@ -1,5 +1,6 @@
 ---
-title: Onlinetime-endstone文档 | docs
+title: Onlinetime-endstone
+github_repo: https://github.com/ljh938527/onlinetime-endstone
 ---
 
 # Endstone 在线时间插件
