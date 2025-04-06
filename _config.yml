@@ -4,18 +4,20 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 baseurl: ""
 url: "https://ljh938527.github.io"
 logo: "/assets/logo.png"
 
 lang: "zh-CN"
-timezone: "Asia/Beijing"
+timezone: "Asia/Shanghai"
 
 collections:
   docs:                    # 集合名称（自定义）
     output: true           # 生成静态页面
     permalink: /docs/:path/ # 控制最终访问路径
+    nav-order: 2
 
 defaults:
   - scope:
