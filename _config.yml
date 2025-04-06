@@ -13,6 +13,14 @@ lang: "zh-CN"
 timezone: "Asia/Beijing"
 
 collections:
-  changelog:
-    output: true
-    permalink: /changelog/:title/
+  docs:                    # 集合名称（自定义）
+    output: true           # 生成静态页面
+    permalink: /docs/:path/ # 控制最终访问路径
+
+defaults:
+  - scope:
+      path: "_docs"        # 作用范围
+      type: "docs"         # 集合类型
+    values:
+      layout: docs         # 使用专用布局（可选）
+      nav_exclude: true    # 排除导航栏
