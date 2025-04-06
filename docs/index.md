@@ -2,7 +2,6 @@
 layout: default
 title: 文档中心
 description: 项目文档索引
-nav_order: 1
 permalink: /docs/
 ---
 
