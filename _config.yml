@@ -1,28 +1,39 @@
 title: "我的知识库"
 description: "探索技术与创意"
 theme: minima
+baseurl: ""
+url: "https://ljh938527.github.io"
+logo: "/assets/logo.png"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
 
-baseurl: ""
-url: "https://ljh938527.github.io"
-logo: "/assets/logo.png"
-
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
 
 collections:
-  docs:                    # 集合名称（自定义）
-    output: true           # 生成静态页面
-    permalink: /docs/:path/ # 控制最终访问路径
+  docs:
+    output: true
+    permalink: /docs/:path/
     nav-order: 2
 
 defaults:
   - scope:
-      path: "_docs"        # 作用范围
-      type: "docs"         # 集合类型
+      path: "_docs"
+      type: "docs"
     values:
-      layout: docs         # 使用专用布局（可选）
-      nav_exclude: true    # 排除导航栏
+      nav_exclude: true
+      layout: docs
+  - scope:
+      path: "_docs/index.md"
+    values:
+      nav_exclude: false
+
+minima:
+  navigation:
+    - title: "主页"
+      url: /
+    - title: "文档中心"
+      url: /docs/
