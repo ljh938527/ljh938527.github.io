@@ -1,3 +1,11 @@
-title: 我的文档站
-theme: minima  # 使用默认主题
-permalink: /docs/:name/  # 设置文档路径格式
+title: "ljh938527的文档站"
+description: "探索技术与创意"
+theme: minima
+permalink: /docs/:name/
+
+baseurl: ""
+url: "https://ljh938527.github.io"
+logo: "/assets/logo.png"
+
+lang: "zh-CN"
+timezone: "Asia/Beijing"
