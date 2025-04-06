@@ -1,11 +1,20 @@
-title: "ljh938527的文档站"
+title: "我的知识库"
 description: "探索技术与创意"
 theme: minima
-permalink: /docs/:name/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 baseurl: ""
 url: "https://ljh938527.github.io"
 logo: "/assets/logo.png"
 
+custom_footer: "© 2025 ljh938527 | 基于 Jekyll 构建"
+
 lang: "zh-CN"
 timezone: "Asia/Beijing"
+
+collections:
+  changelog:
+    output: true
+    permalink: /changelog/:title/
